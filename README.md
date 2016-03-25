@@ -3,7 +3,7 @@ Usando el Api de TvMaze en el frontend con ECS5,
 
 ## Descarga/Clone
 ```
-git clone https://github.com/joelengt/api-on.git
+git clone https://github.com/joelengt/api-tvmaze-ecs5.git
 ```
 
 ## Start
