@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	background: lightgray;
+}
+
+header {
+	background: salmon;
+	text-align: center;
+	color: white;
+	padding: 1.5em 0;
+}
+
+.loader {
+	display: block;
+	margin: 2rem auto;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.style_box{
+	background: white;
+	width: auto;
+	padding: 15px;
+	margin: 3em;
+	overflow: hidden;
+	display: block;
+}
+
+.image_box {
+	float: left;
+	padding: 15px;
+}
+
+.content_box {
+	padding: 2em;
+	margin: 1em;
+	text-align: left;
+}
+
+input[type="button"] {
+	padding: 1em;
+	border: none;
+	color: white;
+	background: salmon;
+	cursor: pointer;
+}
+
+footer {
+	display: block;
+	background: black;
+	text-align: center;
+	color: white;
+	padding: 2em;
+}
+
+footer p a {
+	color: skyblue;
+	text-decoration: none;
+}
+
+footer p a:hover {
+	color: skyblue;
+	text-decoration: underline;
+}
+
+
+footer p::after {
+	content: " - ";
+}
+
+footer p::before {
+	content: " - ";
+}
